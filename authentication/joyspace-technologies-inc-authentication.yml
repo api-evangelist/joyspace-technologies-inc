@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://joyspace.ai/enterprise/api
+docs: https://joyspace.ai/enterprise/api
+summary:
+  types: [http]
+  http_schemes: [bearer]
+  api_key_in: [header]
+  notes: >-
+    The Joyspace REST API authenticates with a Bearer API key passed in the
+    Authorization header. No OpenAPI/Swagger document is published, so this
+    profile is captured verbatim from the developer documentation rather than
+    derived from a spec.
+schemes:
+  - name: bearerApiKey
+    type: http
+    scheme: bearer
+    in: header
+    header: Authorization
+    format: 'Authorization: Bearer [example key]'
+    sources: [https://joyspace.ai/enterprise/api]
