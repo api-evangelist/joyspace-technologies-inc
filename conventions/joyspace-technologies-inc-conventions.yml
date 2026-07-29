@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://joyspace.ai/enterprise/api
+summary: >-
+  Cross-cutting request/response semantics for the Joyspace video-transformation
+  REST API, captured from the public developer documentation. No OpenAPI spec is
+  published, so unstated conventions (pagination, idempotency, request tracing,
+  error envelope) are left null rather than assumed.
+authentication:
+  style: bearer-api-key
+  header: Authorization
+  format: 'Authorization: Bearer YOUR_API_KEY'
+  ref: authentication/joyspace-technologies-inc-authentication.yml
+base_path: /api/v1
+versioning:
+  scheme: uri-path
+  current: v1
+webhooks:
+  documented: true
+  signing: signed-payload
+  retry: exponential-backoff
+  ref: asyncapi/joyspace-technologies-inc-webhooks.yml
+idempotency:
+  documented: false
+pagination:
+  documented: false
+error_envelope:
+  documented: false
+rate_limits:
+  documented: false
+storage_connectors:
+  - AWS S3
+  - Google Cloud Storage
+  - Azure Blob Storage
+  - Cloudflare R2
+  - Dropbox Business

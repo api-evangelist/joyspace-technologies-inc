@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: https://joyspace.ai/enterprise/api
+type: Webhooks
+summary: >-
+  Joyspace documents a webhook surface for its video-processing API. Webhooks
+  deliver real-time event notifications with automatic retry using exponential
+  backoff and secure payload signing for verification. No AsyncAPI document is
+  published; this catalog is captured verbatim from the developer documentation.
+  Only one event name is shown in the published example payload.
+delivery:
+  transport: https-post
+  retry: exponential-backoff
+  signing: signed-payload
+events:
+  - name: video.processed
+    description: >-
+      Emitted when a video processing job completes. Shown in the published
+      example webhook payload on the API page.
+    source: https://joyspace.ai/enterprise/api
+notes: >-
+  The signature header name, retry limits, and the full event list are linked in
+  the provider's gated Webhook Guide and were not published on the public API
+  page at capture time.

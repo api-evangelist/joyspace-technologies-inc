@@ -1,8 +1,17 @@
 aid: joyspace-technologies-inc
 name: JoySpace Technologies, Inc.
-description: JoySpace Technologies, Inc. is a company surfaced as a portfolio company of 500-global and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  JoySpace Technologies, Inc. (Joyspace) operates an enterprise AI video
+  transformation platform that turns long-form video into viral short clips,
+  captions in 99+ languages, and repurposed content at scale for B2B marketing,
+  sales, podcast, agency, and executive-branding teams. It combines AI clip
+  generation, agentic video-processing workflows, and multimodal semantic search
+  across large video archives, processing 10,000+ videos monthly on
+  enterprise-grade infrastructure. Joyspace exposes a REST API
+  (POST /api/v1/videos/process) secured with Bearer API keys, signed webhooks
+  with automatic retry, and cloud-storage connectors for AWS S3, Google Cloud
+  Storage, Azure Blob Storage, Cloudflare R2, and Dropbox Business. The company
+  is a 500 Global portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/joyspace-technologies-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,45 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://joyspace-ai.b-cdn.net/images/ogImage.png
 tags:
 - Company
-apis: []
+- Video
+- Artificial Intelligence
+- Video Processing
+- Content Creation
+- Media
+- Webhooks
+- Enterprise
+apis:
+- name: JoySpace Video Transformation API
+  description: >-
+    REST API for programmatically uploading and processing video, managing
+    templates/branding/output settings, retrieving results, and accessing
+    analytics. Bearer API-key authentication with signed webhooks for job
+    completion. No OpenAPI document is published by the provider at this time.
+  humanURL: https://joyspace.ai/enterprise/api
+  baseURL: https://joyspace.ai/api/v1
+  properties:
+  - type: Documentation
+    url: https://joyspace.ai/enterprise/api
+  - type: APIReference
+    url: https://joyspace.ai/enterprise/api
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,3 +66,30 @@ maintainers:
 common:
 - type: Website
   url: https://joyspace.ai
+- type: Documentation
+  url: https://joyspace.ai/enterprise/api
+- type: APIReference
+  url: https://joyspace.ai/enterprise/api
+- type: Pricing
+  url: https://joyspace.ai/pricing
+- type: SignUp
+  url: https://app.joyspace.ai
+- type: TermsOfService
+  url: https://joyspace.ai/terms
+- type: PrivacyPolicy
+  url: https://joyspace.ai/privacy
+- type: Blog
+  url: https://joyspace.ai/blog
+- type: Support
+  url: https://joyspace.ai/feedback
+- type: Authentication
+  url: authentication/joyspace-technologies-inc-authentication.yml
+- type: Webhooks
+  url: asyncapi/joyspace-technologies-inc-webhooks.yml
+- type: Conventions
+  url: conventions/joyspace-technologies-inc-conventions.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
