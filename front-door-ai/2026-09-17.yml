@@ -1,0 +1,33 @@
+# Front Door AI Index — joyspace-technologies-inc — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: joyspace-technologies-inc
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: joyspace.ai
+  final_host: joyspace.ai
+  ownership: own
+  owner: joyspace-technologies-inc
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 20.85
+  words: 1007
+  tiers:
+    agentic: 5
+    core: 16
+    model: 0
+  ambiguous: 5
+  top_terms:
+    AI: 15
+    agent: 3
+    automation: 2
+    AI agent: 1
+    RAG: 1
+    agentic: 1
+    autonomous agent: 1
+    machine learning: 1
+    retrieval-augmented: 1
