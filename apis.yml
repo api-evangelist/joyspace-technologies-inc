@@ -1,5 +1,5 @@
 aid: joyspace-technologies-inc
-name: JoySpace Technologies, Inc.
+name: JoySpace Technologies
 description: >-
   JoySpace Technologies, Inc. (Joyspace) operates an enterprise AI video
   transformation platform that turns long-form video into viral short clips,
@@ -113,3 +113,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: JoySpace Technologies, Inc.
