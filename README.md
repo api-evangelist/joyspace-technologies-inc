@@ -1,4 +1,4 @@
-# JoySpace Technologies, Inc.
+# JoySpace Technologies
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-JoySpace Technologies, Inc. is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+JoySpace Technologies, Inc. (Joyspace) operates an enterprise AI video transformation platform that turns long-form video into viral short clips, captions in 99+ languages, and repurposed content at scale for B2B marketing, sales, podcast, agency, and executive-branding teams. It combines AI clip generation, agentic video-processing workflows, and multimodal semantic search across large video archives, processing 10,000+ videos monthly on enterprise-grade infrastructure. Joyspace exposes a REST API (POST /api/v1/videos/process) secured with Bearer API keys, signed webhooks with automatic retry, and cloud-storage connectors for AWS S3, Google Cloud Storage, Azure Blob Storage, Cloudflare R2, and Dropbox Business. The company is a 500 Global portfolio company.
 
-Backed by: 500-global — https://joyspace.ai
+**Areas:** Company · Video · Artificial Intelligence · Video Processing · Content Creation · Media · Webhook · Enterprise
+
+## JoySpace Technologies on APIs.io
+
+Everything profiled for JoySpace Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/joyspace-technologies-inc/](https://apis.io/providers/joyspace-technologies-inc/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [JoySpace Video Transformation API](https://apis.io/apis/joyspace-technologies-inc/joyspace-video-transformation-api/) — REST API for programmatically uploading and processing video, managing templates/branding/output settings, retrieving results, and accessing analytics.…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Joyspace Technologies Inc Webhooks](https://apis.io/asyncapis/joyspace-technologies-inc/joyspace-technologies-inc-webhooks/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Joyspace Technologies Inc Authentication](https://apis.io/security/joyspace-technologies-inc/joyspace-technologies-inc-authentication/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Joyspace Technologies Inc Plans Pricing](https://apis.io/plans/joyspace-technologies-inc/joyspace-technologies-inc-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://joyspace.ai)
+- [Documentation](https://joyspace.ai/enterprise/api)
+- [API reference](https://joyspace.ai/enterprise/api)
+- [Pricing](https://joyspace.ai/pricing)
+- [Sign up](https://app.joyspace.ai)
+- [Support](https://joyspace.ai/feedback)
+- [Blog](https://joyspace.ai/blog)
+- [Terms of service](https://joyspace.ai/terms)
+- [Privacy policy](https://joyspace.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 31.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 39.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 38.2 |
+
+**Agent readiness 19.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/joyspace-technologies-inc/](https://apis.io/providers/joyspace-technologies-inc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for JoySpace Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/joyspace-technologies-inc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
